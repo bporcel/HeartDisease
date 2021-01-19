@@ -1,0 +1,14 @@
+#   LZ4 - Fast LZ compression algorithm
+#   Copyright (C) 2011-2014, Yann Collet.
+#   BSD 2-Clause License (http://www.opensource.org/licenses/bsd-license.php)
+
+prefix=/home/hacko/dev/repositories/HeartDiseasePrediction/env
+libdir=/home/hacko/dev/repositories/HeartDiseasePrediction/env/lib
+includedir=/home/hacko/dev/repositories/HeartDiseasePrediction/env/include
+
+Name: lz4
+Description: extremely fast lossless compression algorithm library
+URL: http://www.lz4.org/
+Version: 1.9.2
+Libs: -L/home/hacko/dev/repositories/HeartDiseasePrediction/env/lib -llz4
+Cflags: -I/home/hacko/dev/repositories/HeartDiseasePrediction/env/include
